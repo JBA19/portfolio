@@ -28,8 +28,13 @@ nav li {
     list-style: none;
 }
 
-
-#home_logo:hover{
-    
+.fa-home, .fa-id-card, .fa-cog, .fa-eye, .fa-envelope {
+    color: white;
+    font-size: 30px;
 }
+
+
+/* #home_logo:hover{
+    
+} */
 
