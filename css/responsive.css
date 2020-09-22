@@ -1,0 +1,17 @@
+@media screen and (max-width: 1024px){
+
+    nav {
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        padding: 0 1em 0 1em;
+    }
+
+    nav ul {
+        display: flex;
+        column-gap: 0.5em;
+    }
+}
+
+

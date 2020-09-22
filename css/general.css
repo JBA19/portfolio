@@ -1,22 +1,12 @@
 body {
     margin: 0;
-    width: 100vh;
-    display: flex;
-}
-
-header {
-    background-color: #181818;
-    height: 100vh;
-    width: 60px;
-    top: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-right: 1em;
+    /* display: flex; */
 }
 
 nav {
+    background-color: #181818;
     height: 100vh;
+    width: 60px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,7 +22,7 @@ nav li {
     list-style: none;
 }
 
-.fa-home, .fa-id-card, .fa-cog, .fa-eye, .fa-envelope {
+.fa-home, .fa-id-card, .fa-cog, .fa-eye, .fa-envelope, .fa-linkedin-in {
     color: white;
     font-size: 30px;
 }
