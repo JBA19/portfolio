@@ -1,12 +1,19 @@
 body {
     margin: 0;
-    /* display: flex; */
+    display: flex;
+    background-color: #333333;
+    color: #ffffff;
 }
+
+
+
+
+
 
 nav {
     background-color: #181818;
     height: 100vh;
-    width: 60px;
+    width: 75px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,21 +21,107 @@ nav {
 }
 
 nav ul {
+    display: flex;
+    flex-direction: column;
     padding: 0;
+    align-items: center;
+    justify-content: space-between;
+    /* row-gap: 2em; */
 }
 
 nav li {
     margin-top: 3px;
     list-style: none;
+    height: 64px;
+    text-align: center;
+}
+
+a {
+    color: #ffffff;
+}
+
+a:visited {
+    color: #ff7373;
+}
+
+a:hover {
+    color: #48df4f;
 }
 
 .fa-home, .fa-id-card, .fa-cog, .fa-eye, .fa-envelope, .fa-linkedin-in {
     color: white;
-    font-size: 30px;
+    font-size: 25px;
 }
 
-section {
+.menu-anim {
     position: relative;
-    /* display: flex;
-    justify-content: center; */
+    background-color:#181818;
+    overflow: hidden;
+    cursor: pointer;
+    /* text-align: center; */
 }
+
+.menu-anim .menu-anim-dynamic {
+    background-color: #181818;
+    overflow: hidden;
+}
+
+.menu-anim-static { 
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+main {
+    display: flex;
+}
+
+#main-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 1em;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 50px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 15px;
+    font-style: italic;
+    color:#b3b3b3;
+}
+
+h1 p {
+    margin: 0;
+}
+
+
+
+.letter-anim {
+    position: relative;
+    color:#333333;
+    background-color:#ffffff;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.letter-anim-static { 
+    font-size: 55px;
+}
+
+.letter-anim .letter-anim-dynamic {
+    background-color: #333333;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+

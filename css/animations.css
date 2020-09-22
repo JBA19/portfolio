@@ -1,0 +1,52 @@
+/* ANIMATION MENU */
+
+.menu-anim .menu-anim-dynamic,
+.menu-anim .menu-anim-dynamic p {
+    /* display: flex; */
+    /* justify-content: left; */
+    /* align-items: center; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    transition: all ease 0.7s;
+}
+
+.menu-anim.active .menu-anim-dynamic,
+.menu-anim:hover .menu-anim-dynamic {
+    transform: translateY(-100%);
+}
+
+.menu-anim.active .menu-anim-dynamic p,
+.menu-anim:hover .menu-anim-dynamic p {
+    transform: translateY(100%);
+}
+
+/* ANIMATION H1 ACCUEIL */
+
+.letter-anim .letter-anim-dynamic,
+.letter-anim .letter-anim-dynamic p {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    transition: all ease 0.7s;
+}
+
+.letter-anim.active .letter-anim-dynamic,
+.letter-anim:hover .letter-anim-dynamic {
+    transform: translateX(100%);
+}
+
+.letter-anim.active .letter-anim-dynamic p,
+.letter-anim:hover .letter-anim-dynamic p {
+    transform: translateX(-100%);
+}
+
