@@ -132,10 +132,12 @@ h1 p {
 #skills {
     display: grid;
     grid-template-columns: 33% 33% 33%;
+    justify-content: space-between;
 }
 
 article {
     display: flex;
     flex-direction: column;
+    
 }
 
