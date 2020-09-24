@@ -70,7 +70,7 @@
     transition-property: width, background-color;    
 }
   
-#html .progress-moved .progress-bar2  {
+.progress-moved .progress-bar2  {
     width: 85%;
     background-color: #48df4f;  
     animation: progressAnimation 6s;
